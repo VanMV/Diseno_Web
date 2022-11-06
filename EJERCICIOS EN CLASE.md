@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/113804525/200149108-e14c6dfc-d1e4-4b86-9682-ce9129d03e10.png)
+![image](https://user-images.githubusercontent.com/113804525/200149165-10a3941f-6df7-4717-8299-678a119d4657.png)
 
 <h2>POESIA</h2>
 <h1>Los Mejores Poemas de Octavio Paz</h1>
