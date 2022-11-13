@@ -24,3 +24,68 @@
 
   
 ![image](https://user-images.githubusercontent.com/113804525/200149121-1341327f-0947-43ee-8c78-e4793608ff9c.png)
+
+
+**** METER IMAGENES en HTML ****
+
+   Desde google:
+   
+   ![image](https://user-images.githubusercontent.com/113804525/201496948-7a4ab811-4d4c-4557-9078-21b777e38064.png)
+
+   Desde Mis Documentos > Ruta Relativa :
+   
+   ![image](https://user-images.githubusercontent.com/113804525/201498248-607ff1d1-5fba-48ee-a5c8-2f02f7f6436b.png)
+
+  
+**** LISTAS ****
+
+  Enumerada:
+  
+    <ol>
+        <li>Primer Elemento</li>
+        <li>Segundo Elemento</li>
+        <li>Tercer Elemento</li>
+        <li>Cuarto Elemento</li>
+    </ol>
+    
+![image](https://user-images.githubusercontent.com/113804525/201498457-0948e41c-98c6-48f8-b6db-b052089d1ded.png)
+
+    
+  Puntos:
+  
+    <ul>
+        <li>Primer Elemento</li>
+        <li>Segundo Elemento</li>
+        <li>Tercer Elemento</li>
+        <li>Cuarto Elemento</li>
+    </ul>
+    
+ ![image](https://user-images.githubusercontent.com/113804525/201498453-7b54d9a9-9be8-4ed8-864a-6a8bf1ee289b.png)
+    
+  Descriptiva:
+  
+    <dl>
+        <dt>Enchiladas</dt>
+        <dd>- Tortilla frita con salsa, rellena de pollo</dt>
+        <dt>Molletes</dt>
+        <dd>- Bolillo con frijoles</dd>     
+    </dl>
+    
+ ![image](https://user-images.githubusercontent.com/113804525/201498446-896b4bfe-fa5c-4a32-b85f-781cf52cdf84.png)
+    
+**** METER VIDEOS ****
+
+En los videos de YouTube, dar "Compartir" > "Incorporar" > Copiar la ruta
+
+![image](https://user-images.githubusercontent.com/113804525/201498506-657f453f-69ec-42c8-adb1-7f3bf476ae48.png)
+
+
+**** TITULO EN LA PÁGINA C/EMOTICONES ****
+
+![image](https://user-images.githubusercontent.com/113804525/201499068-d06bdfef-5580-4acb-a86f-c57cdb619d87.png)
+
+![image](https://user-images.githubusercontent.com/113804525/201499075-a6ec7787-6a34-4a77-a7ca-55d3efbb3637.png)
+
+
+
+
