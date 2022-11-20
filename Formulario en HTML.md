@@ -49,5 +49,21 @@ Mismo NAME para seleccionar uno u otro   |    Diferente NAME para seleccionar un
 ![image](https://user-images.githubusercontent.com/113804525/202876000-5a85b73b-463d-40c3-9124-41d6c0a46189.png)
 ![image](https://user-images.githubusercontent.com/113804525/202876016-c80b06e8-4641-4372-a663-b58729aa34aa.png)
 
+TEXTAREA para habilitar un cuadro de texto libre
+
+![image](https://user-images.githubusercontent.com/113804525/202876635-7ddf07e5-00bd-4772-ad53-cbf34451f4d3.png)
+![image](https://user-images.githubusercontent.com/113804525/202876648-1a7508d2-98a4-44e5-baa9-aecf5fdba70b.png)
+
+SELECT  crea una lista desplegable, el value es lo que nosotros asignamos y las letras blancas, lo que ve el usuario para escoger
+
+![image](https://user-images.githubusercontent.com/113804525/202876809-3ac7e80f-df70-4dd5-a388-1d4717933b20.png)
+![image](https://user-images.githubusercontent.com/113804525/202876827-96b6bb41-6c81-4299-9a38-9cf240d4f9e0.png)
+
+
+INPUT tipo NUMBER para que indiquen el número
+
+![image](https://user-images.githubusercontent.com/113804525/202876933-b9602e0d-acdf-4e20-836c-b7462861a750.png)
+![image](https://user-images.githubusercontent.com/113804525/202876940-17073555-603e-41f8-b59b-fc3e162fc457.png)
+
 
 
