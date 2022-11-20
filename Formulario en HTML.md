@@ -85,6 +85,8 @@ INPUT tipo RESET para resetear el formulario
 ![image](https://user-images.githubusercontent.com/113804525/202877444-17edfba3-e9c7-47b7-9a9f-226934f4b36d.png)
 
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
