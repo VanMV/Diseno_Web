@@ -85,4 +85,160 @@ INPUT tipo RESET para resetear el formulario
 ![image](https://user-images.githubusercontent.com/113804525/202877444-17edfba3-e9c7-47b7-9a9f-226934f4b36d.png)
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <H1>FORMULARIO DE TAQUERIA</H1>
+    <H2>Menú</H2>
+    <h3>Tacos</h3>
+    <ul>
+        <li>Pastor......................$ 15</li>
+        <li>Suadero...................$ 15</li>
+        <li>Tripa.......................$ 15</li>
+        <li>Bistec......................$ 15</li>
+        <li>Arrachera................$ 15</li>
+    </ul>
+    <h3>Especialidades</h3>
+    <dl>
+        <dt>Con piña.......................$ 20</dt>
+        <dd>con rebanadas de piña dulce</dd>
+        <dt>Con queso....................$ 20</dt>
+        <dd>americano, manchego o gouda</dd>
+        <dt>Piña y queso.................$ 20</dt>
+        <dd>americano, manchego o gouda y rodajas de piña dulce</dd>
+        <dt>Volcanes......................$ 20</dt>
+        <dd>tostada con queso gratinado</dd>
+    </dl>
+    <h2>¡HAZ TU PEDIDO AHORA!</h2>
+    <!-- FORM es para iniciar los formularios -->
+    <!-- ACTION es a donde envias los datos -->
+    <!-- METHOD es como se envian los datos -->
+    <form action="" method="">
+        <!-- INPUT tipo TEXT para habilitar el cuadro para ingresar texto -->
+        <!-- INPUT tipo TEL para habilitar el cuadro para número -->
+        <!-- INPUT tipo EMAIL para habilitar el cuadro para correo electrónico -->
+        <!-- PLACEHOLDER para dar un ejemplo al usuario como tipo marca de agua, ayuda visual -->
+        <!-- MINLEGTH para un mínimo de caracteres -->
+        <!-- MAXLENGTH para un máximo de cara caracteres -->
+        <!-- REQUIRED para llenar el dato forzozamente -->
+        Nombre <input type="text" placeholder="Ejemplo: Juan Pérez" minlength="3" maxlength="30" required> <br><br>
+        <!-- VALUE para dar un dato previo como la LADA +52-->
+        Teléfono <input type="tel" min="10" max="10" placeholder="Sin LADA, solo números" value="+52"> <br><br>
+        <!-- El tipo EMAIL es para asegurarse que tenga un @ -->
+        Correo <input type="email" placeholder="abc123@hotmail.com">
+        <p>¿Es para llevar o comer en local?</p>
+        <!-- RADIO para seleccionar entre opciones -->
+        <!-- Mismo NAME para seleccionar uno u otro -->
+        <!-- Diferente NAME para seleccionar uno o todos -->
+        <input type="radio" value="Llevar" name="Llevar"> Para llevar <br>
+        <input type="radio" value="Local" name="Llevar"> Para comer en el local
+        <!-- TEXTAREA para un cuadrito que ingresen texto libre -->
+        <P>Ingresa tu dirección</P> <textarea name="" id="" cols="40" rows="5" placeholder="Calle y número, Colonia, C.P."></textarea> <br><br>
+        
+        <!-- INPUT tipo DATE para fecha  -->
+        ¿Para cuándo es tu orden?
+        <input type="date" value="2022-11-19" min="2022-11-19" max="2022-12-31">
+        
+        <br><br>
+        ELIGE TUS TACOS<br>
+        <!-- SELECT para una lista desplegable -->
+        <!-- VALUE es lo que vas a recibir, pero no se ve en página -->
+        <select name="ORDEN 1" id="">
+            <option value="Pastor">Pastor</option>
+            <option value="Suadero">Suadero</option>
+            <option value="Tripa">Tripa</option>
+            <option value="Bistec">Bistec</option>
+            <option value="Arrachera">Arrachera</option>
+        </select>
+        <!-- INPUT tipo NUMER para escoger un número de tacos -->
+        <input type="number" min="1" max="20">
+        <!-- INPUT tipo CHECKBOX para agregar complementos -->
+        <input type="checkbox" value="limones" name="Si"> limones
+        <input type="checkbox" value="cebolla" name="Si"> cebolla
+        <input type="checkbox" value="cilantro" name="Si"> cilantro
+        <input type="checkbox" value="verde" name="Si"> salsa verde
+        <input type="checkbox" value="roja" name="Si"> salsa roja
 
+        <br>
+
+        <select name="ORDEN 2" id="">
+            <option value="Pastor">Pastor</option>
+            <option value="Suadero">Suadero</option>
+            <option value="Tripa">Tripa</option>
+            <option value="Bistec">Bistec</option>
+            <option value="Arrachera">Arrachera</option>
+        </select>
+        <!-- INPUT tipo NUMER para escoger un número de tacos -->
+        <input type="number" min="1" max="20">
+        <!-- INPUT tipo CHECKBOX para agregar complementos -->
+        <input type="checkbox" value="limones" name="Si"> limones
+        <input type="checkbox" value="cebolla" name="Si"> cebolla
+        <input type="checkbox" value="cilantro" name="Si"> cilantro
+        <input type="checkbox" value="verde" name="Si"> salsa verde
+        <input type="checkbox" value="roja" name="Si"> salsa roja
+
+        <br>
+
+        <select name="ORDEN 3" id="">
+            <option value="Pastor">Pastor</option>
+            <option value="Suadero">Suadero</option>
+            <option value="Tripa">Tripa</option>
+            <option value="Bistec">Bistec</option>
+            <option value="Arrachera">Arrachera</option>
+        </select>
+        <!-- INPUT tipo NUMER para escoger un número de tacos -->
+        <input type="number" min="1" max="20">
+        <!-- INPUT tipo CHECKBOX para agregar complementos -->
+        <input type="checkbox" value="limones" name="Si"> limones
+        <input type="checkbox" value="cebolla" name="Si"> cebolla
+        <input type="checkbox" value="cilantro" name="Si"> cilantro
+        <input type="checkbox" value="verde" name="Si"> salsa verde
+        <input type="checkbox" value="roja" name="Si"> salsa roja
+
+        <br>
+
+        <select name="ORDEN 4" id="">
+            <option value="Pastor">Pastor</option>
+            <option value="Suadero">Suadero</option>
+            <option value="Tripa">Tripa</option>
+            <option value="Bistec">Bistec</option>
+            <option value="Arrachera">Arrachera</option>
+        </select>
+        <!-- INPUT tipo NUMER para escoger un número de tacos -->
+        <input type="number" min="1" max="20">
+        <!-- INPUT tipo CHECKBOX para agregar complementos -->
+        <input type="checkbox" value="limones" name="Si"> limones
+        <input type="checkbox" value="cebolla" name="Si"> cebolla
+        <input type="checkbox" value="cilantro" name="Si"> cilantro
+        <input type="checkbox" value="verde" name="Si"> salsa verde
+        <input type="checkbox" value="roja" name="Si"> salsa roja
+
+        <br><br>
+
+        <!-- INPUT tipo SUBMIT para un botón que envíe los datos -->
+        <!-- INPUT tipo RESET para resetear el formulario -->
+        <input type="submit" value="ORDENA"> 
+        <input type="reset" value="ACTUALIZAR">
+
+    </form>
+   
+    <form action="">
+        <!-- INPUT tipo COLOR para escoger colores-->
+        Escoge un color
+        <input type="color"> <br><br>
+        <!-- INPUT tipo PASSWORD pone puntitos para esconder los caracteres -->
+        Password
+        <input type="password"> <br><br>
+        
+        <!-- INPUT tipo FILE para subir un archivo -->
+        <input type="file">
+
+    </form>
+</body>
+</html>
