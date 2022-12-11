@@ -201,11 +201,89 @@ https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/ass
 
           INGRESA AQUI EL CÓDIGO HTML
           
-          
+          <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluación CSS</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <img src="https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/assets/images/logo.svg" alt=""> <hr>
+        <nav>
+            <ul>
+                <li><a href="">Residentes</a></li> 
+                <li><a href="">Negocios</a></li> 
+                <li><a href="">Visitantes</a></li> 
+                <li><a href="">Gobierno</a></li> 
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <img src="https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero-vector.svg" alt="">
+        <h1>APRENDE A PROGRAMAR EN LAS ESCUELAS DE CÓDIGO DE LA CDMX</h1>
+    </main>
+
+    <footer>
+        <h2>¿Quién se puede inscribir?</h2> <br>
+        <p>Cualquier persona que quiera aprendera programar código y cuente con 4-8 horas disponibles a la semana</p>
+        <p>*Menores de edad deberán entrar a las instalaciones acompañados de un adulto </p>
+    </footer>
+</body>
+
+</html>
           
           
           INGRESA AQUI EL CSS
           
-          
+          *{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+
+}
+nav li{
+    list-style: none;
+    margin: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;    
+}
+/* hover > cuando pase el cursor sobre la palabra, hace la acción de abajo */
+/* Opacity > opaca */
+/* Font-size > agranda */
+nav a:hover{
+    opacity: .5;
+}
+nav{
+    padding: 20px;
+}
+main{
+    height: 60vh;
+    background: url(https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg;);
+    background-repeat: no repeat;
+    background-position: center;
+    background-size: cover; 
+}
+footer h2{
+    color: goldenrod;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
+footer{
+    padding: 40px;
+}
           
  Ingresa el link a tu página del proyecto final
