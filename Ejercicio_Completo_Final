@@ -5,9 +5,139 @@ Dentro de Header, metemos una etiqueta nav
 Dentro de nav, metemos una etiqueta p que diga "logo"
 Dentro de nav, metemos una etiqueta ul
 Dentro de ul, metemos 5 etiquetas de li que digan "animación 1", "animación 2", etc.
+-----------
 Dentro de Header, fuera y abajo del nav, metemos un h1 que diga "Efectos y Animaciones"
 Dentro del main, en el primer section, metemos un h2 que diga "Animación 1: Rotar"
 Dentro del main, en el primer section, metemos un h2 que diga "Animación 2: Rotar"
 Dentro del main, en el primer section, metemos un h2 que diga "Animación 3: Rotar"
 Dentro del main, en el primer section, metemos un h2 que diga "Animación 4: Rotar"
 Dentro del main, en el primer section, metemos un h2 que diga "Animación 5: Rotar"
+----------
+En css:
+Matamos los margenes con *{margin0; padding:0}
+Hacemos un comentario que diga "General" con ctrl k + c
+Hacemos un comentario que diga "Header" con ctrl k + c para que sepamos donde vamos a meter cada parte
+Hacemos un comentario que diga "header animación 1" con ctrl k + c para que sepamos donde vamos a meter cada parte
+Hacemos un comentario que diga "header animación 2" con ctrl k + c para que sepamos donde vamos a meter cada parte
+Hacemos un comentario que diga "header animación 3" con ctrl k + c para que sepamos donde vamos a meter cada parte
+Hacemos un comentario que diga "header animación 4" con ctrl k + c para que sepamos donde vamos a meter cada parte
+Hacemos un comentario que diga "header animación 5" con ctrl k + c para que sepamos donde vamos a meter cada parte
+
+Dentro del comentario de HEADER en CSS, metemos:
+  header{
+    height: 100vh;                      **alto de 100**
+    background: url(https://i.pinimg.com/originals/b7/e7/03/b7e7038b2d8a5f69f73aff3f8287958e.jpg);  **insertar imagen**
+    background-repeat: no-repeat;       **la imagen no se repite**
+    background-size: cover;             **con cover se expande en toda la pantalla**
+    background-position: center;        **con center la centra en toda la pantalla, no se corta**
+  }
+Dentro del NAV, metemos:  
+  
+  nav{
+    display: flex;                      **se mueven uno a lado del otro
+    justify-content: space-around;      **uno a un lado y otro al otro lado**
+  }
+Dentro del LI, metemos:
+
+  li{
+    list-style: none;                   **Le quita los puntitos**
+    margin-right: 10px;                 **separa los botones de la lista para que no esten pegados**
+    background-color: white;            **color de fondo de cada botón de la lista**
+    border-radius: 10px;                **para que se haga un borde como circular, quitando las esquinas de cada botón**
+    padding: 10 px;                     **para que se haga el colchonsito**
+  }
+
+Metes un li:hover para que sobre el li cambie el efecto del menú cuando el cursor este sobre cada botón
+
+    li:hover{
+     background-color: aquamarine;
+     color: black;
+    }
+ En el cometario de GENERAL:
+ Dentro del SECTION:
+    section{
+      height: 100vh;
+      display: flex;
+      justify-content: center; de lo ancho lo alinea al centro
+       align-items: center;    de lo largo lo alinea al centro
+    }
+    
+ En HTML, dentro de cada section le metemos clases, su nombre no debe tener espacios:
+     <main>
+        <section class="Animación1">
+            <h2>Animación 1: Rotar</h2>
+        </section>
+        <section class="Animación2">
+            <h2>Animación 2: </h2>
+        </section>
+        <section class="Animación3">
+            <h2>Animación 3: </h2>
+        </section>
+        <section class="Animación4">
+            <h2>Animación 4: </h2>
+        </section>
+        <section class="Animación5">
+            <h2>Animación 5: </h2>
+        </section>
+    </main>
+    
+    Regresamos en CSS para darle estilos a cada animación:
+    Le metemos un background-color para darle color a cada sección:
+    
+          /* header animación 1 */
+      .Animación1{
+          background-color: aqua;
+      }
+      /* header animación 2 */
+      .Animación2{
+          background-color: chartreuse;
+      }
+      /* header animación 3 */
+      .Animación3{
+          background-color:deeppink;
+      }
+      /* header animación 4 */
+      .Animación4{
+          background-color: darkcyan;
+      }
+      /* header animación 5 */
+      .Animación5{
+          background-color: darkgoldenrod;
+      }
+ 
+ Vamos a cambiar el color de la barra de navegación,
+ Conocemos el webkit para cambir la barra de navegación,
+ 
+ Primero el color de la barrita que se mueve
+ En CSS, en el comentario de General, metemos:
+         ::-webkit-scrollbar-thumb{           **el fondo cuadrito de movimiento**
+            background-color:darkmagenta;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-track{            **la barra de desplazamiento, el riel**
+            background-color: yellowgreen;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar{                  **es el fondo de la barra, casi no se ve, solo con zoom y si tiene borde circular el riel (track)
+            width: 30px;;
+        }
+
+Empezamos con la ANIMACIÓN 1:
+En HTML en MAIN>SECTION>ANIMACION1 : Animación1 Metemos una imagen con <img class="img1" src=" " alt="">
+En CSS  metemos IMG general para que todas las imágenes tengan el mismo tamaño
+
+          img{
+              width: 10%;
+          }
+
+a la primer animación le metemos un hover para que cuando el cursor este por encima, cambie según las nuevas especificaciones siguientes:
+
+         .img1:hover{
+            border-radius: 50%;                     **le da un borde circular en las esquinas ya que esta cuadrado**
+            box-shadow: 0 0 15px 15px orangered;    **le da un contorno que tiene color naranja mientras realiza el efecto**
+            transform: rotate(360deg);              **rota 360 grados**
+            transition: all 2s ease-in-out;         ** 2 segundos en dar el giro**
+        }
+
+
+
