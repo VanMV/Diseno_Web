@@ -114,7 +114,7 @@ Metes un li:hover para que sobre el li cambie el efecto del menú cuando el curs
  Primero el color de la barrita que se mueve
  En CSS, en el comentario de General, metemos 3 ::-webkit
  
-         ::-webkit-scrollbar-thumb{           **el fondo cuadrito de movimiento**
+         ::-webkit-scrollbar-thumb{           **el fondo del cuadrito de movimiento**
             background-color:darkmagenta;
             border-radius: 10px;
         }
@@ -127,14 +127,14 @@ Metes un li:hover para que sobre el li cambie el efecto del menú cuando el curs
         }
 
 Empezamos con la ANIMACIÓN 1:
-En HTML en MAIN>SECTION>ANIMACION1 : Animación1 Metemos una image y le agregamos una clase para que css la llamemos y le pongamos estilo con <img class="img1" src=" " alt="">
+En HTML en MAIN>SECTION>ANIMACION1 : Animación1 Metemos una imagen y le agregamos una clase para que en css la llamemos y le pongamos estilo. en html con <img class="img1" src=" " alt="">
 En CSS  metemos IMG general para que todas las imágenes tengan el mismo tamaño
 
           img{
               width: 10%;
           }
 
-a la primer animación le metemos un hover para que cuando el cursor este por encima, cambie según las nuevas especificaciones siguientes:
+A la primer animación le metemos un hover para que cuando el cursor este por encima, cambie según las nuevas especificaciones siguientes:
 
          .img1:hover{
             border-radius: 50%;                     **le da un borde circular en las esquinas ya que esta cuadrado**
@@ -142,6 +142,40 @@ a la primer animación le metemos un hover para que cuando el cursor este por en
             transform: rotate(360deg);              **rota 360 grados**
             transition: all 2s ease-in-out;         ** 2 segundos en dar el giro**
         }
+
+
+@KEYFFRAMES crea variable y sobre ese le ds animación para que se mueva. Variables para que provoquen animaciones.
+
+
+Empezamos con la ANIMACIÓN 2:
+En HTML en MAIN>SECTION>ANIMACION2 : Debajo del h2, metemos  un p con nuestro nombre y una clase que se llame "Animación"
+En CSS dentro del comentario de Header animación 2, metemos el keyframes
+
+         @keyframes movimiento-lateral {from{left:0px} to {left:500px}}         **que empiece en 0 y se mueva hasta el 500 pixeles**
+              .Animación{
+                  animation-name: movimiento-lateral;                           **a que le vamos a dar la animación**
+                  animation-duration: 1s;                                       **rapidez del movimiento**                 
+                  animation-iteration-count: infinite;                          **duración del movimiento**
+                  animation-direction: alternate;                               **va de izquierda a derecha y regresa de derecha a izquierda**
+                  width: 200px;                                                 
+                  background-color: lightseagreen;
+                  color: white;
+                  position: relative;                                           **respeta la posición para que no se encime en otros objetos**
+                  padding: 40px;                                                **tamaño del borde**
+                  border-radius: 15%;                                           **hace circulas las esquinas del borde**
+                  text-align: center;                                           **alinea el texto al centro**
+                  box-shadow: 0 0 15px 15px darkorchid;                         **le da sombra al bordehacia fuera**
+              }
+
+Cambiando el keyframes con top, se mueve de arriba hacia abajo:
+
+          @keyframes movimiento-lateral {from{top:0px} to {top:500px}}
+
+
+Empezamos con la ANIMACIÓN 3:
+En HTML en MAIN>SECTION>ANIMACION2 : Debajo del h2, metemos  un p con nuestro nombre y una clase que se llame "Animación"
+En CSS dentro del comentario de Header animación 2, metemos el keyframes
+
 
 
 
