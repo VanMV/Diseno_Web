@@ -1,0 +1,13 @@
+Primero creamos el archivo.
+Le metemos el Header, Main y Footer
+Metemos 5 section dentro del Main
+Dentro de Header, metemos una etiqueta nav
+Dentro de nav, metemos una etiqueta p que diga "logo"
+Dentro de nav, metemos una etiqueta ul
+Dentro de ul, metemos 5 etiquetas de li que digan "animación 1", "animación 2", etc.
+Dentro de Header, fuera y abajo del nav, metemos un h1 que diga "Efectos y Animaciones"
+Dentro del main, en el primer section, metemos un h2 que diga "Animación 1: Rotar"
+Dentro del main, en el primer section, metemos un h2 que diga "Animación 2: Rotar"
+Dentro del main, en el primer section, metemos un h2 que diga "Animación 3: Rotar"
+Dentro del main, en el primer section, metemos un h2 que diga "Animación 4: Rotar"
+Dentro del main, en el primer section, metemos un h2 que diga "Animación 5: Rotar"
