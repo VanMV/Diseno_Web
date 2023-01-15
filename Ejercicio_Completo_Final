@@ -173,8 +173,64 @@ Cambiando el keyframes con top, se mueve de arriba hacia abajo:
 
 
 Empezamos con la ANIMACIÓN 3:
-En HTML en MAIN>SECTION>ANIMACION2 : Debajo del h2, metemos  un p con nuestro nombre y una clase que se llame "Animación"
-En CSS dentro del comentario de Header animación 2, metemos el keyframes
+En CSS dentro del comentario de Header animación 3, metemos el keyframes
+
+                    @keyframes fadeIn {to{transform: translateX(0px); opacity: 1;}}
+
+                        .Animación3{
+                            opacity: 0;
+                            transform: translateX(1500px);                                **le da entrada de derecha a izquierda a todo el bloque**
+                            animation: fadeIn .8s linear forwards;
+                            animation-iteration-count: infinite;    
+                        }
+
+
+Empezamos con la ANIMACIÓN 4:
+En HTML en MAIN>SECTION>ANIMACION4 : Al H2 que ya está, le asignamos una clase llamada "Olivettis"  
+En CSS dentro del comentario de Header animación 4, metemos 2 keyframes
+
+                    @keyframes olivetti {from{width: 0;}}
+                    @keyframes pampagulla {50%{border-color: transparent;}}
+
+Ahora los vamos a aplicar a nuestra clase .olivetti
+
+          .olivetti{
+                    font-size: 2rem;                                                                **al doble de su tamaño**
+                    font-family: monospace
+                    color: white;
+                    width: 30%;                                                                     **el tamaño del largo de los espacios**
+                    animation: olivetti 5s steps(30), pampagulla 0.5s step-end infinite alternate;
+                    white-space:nowrap;
+                    overflow: hidden;
+                    border-right: 2px solid white;
+           }
+
+
+Empezamos con la ANIMACIÓN 4:
+En HTML en MAIN>SECTION>ANIMACION5 : Animación5 Metemos una imagen y le agregamos una clase para que en css la llamemos y le pongamos estilo. en html con <img class="img2" src=" " alt="">
+En CSS dentro del comentario de Header animación 5, metemos los estilos de la imagen:
+
+
+          .img2 {
+              width: 20%;
+              max-height: 35vh;                                                 **se puede expandir máximo a 35 vh**
+              -webkit-box-reflect:below -1px;                                   **la imagen se refleja abajo, el pixel es la separación que tendra con el reflejo**                         
+              linear-gradient(to bottom, tranparent, rgba(0, 0, 0, 0.8));       **el reflejo lo hace un poco transparente
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
