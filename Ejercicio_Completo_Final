@@ -217,8 +217,19 @@ En CSS dentro del comentario de Header animación 5, metemos los estilos de la i
               -webkit-box-reflect:below -1px;                                   **la imagen se refleja abajo, el pixel es la separación que tendra con el reflejo**                         
               linear-gradient(to bottom, tranparent, rgba(0, 0, 0, 0.8));       **el reflejo lo hace un poco transparente
           }
+________________________________________________________________________________________________________________________________________________________
 
+En HTML en cada section, además de la clase, le metemos un ID
+          <main>
+                <section class="Animación1" id="Section1">          
 
+En los li, le agregamos una etiqueta a para que nos enlace con los botones a cada sección:
+          <header>
+                  <nav>
+                      <p>Logo</p>
+                      <ul>
+                          <a href="#Section1"><li>Animación 1</li></a>          **lo enlazas interno con el #
+                          
 
 
 
